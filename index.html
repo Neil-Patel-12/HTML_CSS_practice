@@ -200,6 +200,113 @@
         }
     </script>
 
+    <!-- STEP 14: EVERYTHING FORMS -->
+    <hr>
+    <!-- 
+        lable your inputs: for label == id input
+        input name: when we submit that data, what name do we give that data?
+        input placeholder: just hold some text
+        input required: must fill out the box
+    -->
+    <form action="action_page.php" method="POST">
+
+        <div>
+
+            <label for="fname">first name:</label>
+            <input type="text" id="fname" name="first name" placeholder="Enter your first name..." required>
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="1name">last name:</label>
+            <input type="text" id="1name" name="last name" placeholder="Enter your last name..." required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" maxlength="12" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="abc@gmail.com">
+        </div>
+
+        <br>
+
+        <div>
+            <label for=" phone">Phone #:</label>
+            <input type="tel" id="phone" name="phone" placeholder="(123)-456-7890">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="bdata">Birthday:</label>
+            <input type="data" id="bdata" name="bdata">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="0" max="99" value="1">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="title">title:</label>
+
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." name="title" value="Mr.">
+
+            <label for="Mrs.">Mrs.</label>
+            <input type="radio" id="Mrs." name="title" value="Mrs.">
+
+            <label for="PhD.">PhD.</label>
+            <input type="radio" id="PhD." name="title" value="PhD.">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="payment">Payment:</label>
+            <select name="payment" id="payment">
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="subscribe">Subscribe:</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+
+
 </body>
 
 </html>
