@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(50, 159, 230);
+}
+
+p {
+    color: white;
+    background-color: red;
+    font-family: "consolas", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: blue dotted underline;
+    font-size: large;
+}
+
+#p1 {
+    background-color: rgb(93, 192, 91);
+}
+
+.even {
+    background-color: rgb(214, 107, 204);
+}
+
+h1 {
+    color: white;
+    font-family: Honk;
+}
