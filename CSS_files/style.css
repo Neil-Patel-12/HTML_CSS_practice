@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(50, 159, 230);
+    background-color: rgb(192, 239, 206);
+    margin: 0px;
 }
 
 p {
@@ -8,8 +9,10 @@ p {
     font-family: "consolas", sans-serif;
     font-style: italic;
     font-weight: bold;
-    text-decoration: blue dotted underline;
+    /* text-decoration: blue dotted underline; */
     font-size: large;
+    /* text-align: center; */
+    line-height: 25px;
 }
 
 #p1 {
@@ -23,4 +26,47 @@ p {
 h1 {
     color: white;
     font-family: Honk;
+    border: 10px groove silver;
+    text-align: center;
+    background-color: rgb(84, 112, 41);
+    padding: 10px
+}
+
+.parent>.child {
+    color: blue;
+}
+
+#boarder {
+    border: 5px outset gold;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#linear-gradient2 {
+    background: linear-gradient(to left, skyblue, white);
+    color: black;
+    border: 6px inset purple;
+}
+
+
+#box1 {
+    border: 5px ridge black;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background-color: greenyellow;
+
+    padding: 10px;
+}
+
+#box2 {
+    border: 5px ridge black;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background-color: rgb(0, 255, 229);
+
+    padding: 10px;
 }
